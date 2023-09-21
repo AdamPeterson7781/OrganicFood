@@ -1,0 +1,470 @@
+.overflow{
+    overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar{
+    padding-right: 140px;
+}
+
+.navbar-brand{
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 150px 30px 30px;
+}
+
+.nav-link{
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 40px;
+    margin-top: -2px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #7EB693;
+}
+
+.search{
+    width: 376px;
+    height: 66px;
+    border-radius: 36px;
+    background: #FAFAFA;
+    padding:  0 75px 0 15px;
+    margin: 0 0 0 130px;
+}
+
+.search-btn{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 5px 0 0 -70px;
+    background-color: #7EB693;
+    color: #FAFAFA;
+}
+
+.search-btn:hover{
+    background-color: #274C5B;
+    color: #FAFAFA;
+
+}
+
+.cart-btn{
+    width: 159px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    border: 1px solid #E0E0E0;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 0 20px;
+}
+
+.Cart{
+    margin: 0 12px 0 -17px;
+}
+
+@media screen and (max-width: 1765px) {
+    .navbar-brand {
+        font-size: 38px;
+        margin: 30px 30px 30px 30px;
+    }
+
+    .search{
+        width: 376px;
+        height: 66px;
+        padding:  0 75px 0 15px;
+        margin: 0 0 0 30px;
+    }
+
+    .search-btn{
+        width: 55px;
+        height: 55px;
+        margin: 5px 0 0 -70px;
+    }
+    
+    .cart-btn{
+        width: 159px;
+        height: 66px;
+        font-size: 18px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .nav-link {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .navbar-brand {
+        font-size: 32px;
+        margin: 30px 30px 30px 0;
+    }
+
+    .search {
+        width: 300px;
+        height: 66px;
+        padding: 0 75px 0 15px;
+        margin: 0 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .nav-link {
+        font-size: 17px;
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+
+    .cart-btn {
+        width: 135px;
+        height: 66px;
+        font-size: 18px;
+        margin: 0 0 0 20px;
+    }
+
+    .cart-btn {
+        width: 135px;
+        height: 66px;
+        font-size: 18px;
+        margin: 0 0 0 20px;
+    }
+
+    .Cart {
+        margin: -1px 0 0px -4px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .navbar-brand {
+        font-size: 30px;
+        margin: 30px 30px 30px 0;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+
+    .search {
+        width: 245px;
+        height: 60px;
+        padding: 0 75px 0 15px;
+        margin: 0 0 0 30px;
+    }
+
+    .search-btn {
+        width: 55px;
+        height: 55px;
+        margin: 2px 0 0 -66px;
+    }
+
+    .cart-btn {
+        width: 135px;
+        height: 66px;
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .search {
+        width: 215px;
+        height: 60px;
+        padding: 0 75px 0 15px;
+        margin: 0 0 0 30px;
+    }
+
+    .cart-btn {
+        width: 115px;
+        height: 66px;
+        font-size: 13px;
+        margin: 0 0 0 5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        padding-right: 100px;
+        padding-left: 0;
+    }
+    
+    .navbar-brand{
+        color: #274C5B;
+        font-family: 'Roboto';
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 30px 0 30px 0;
+    }
+    
+    .nav-link{
+        color: #274C5B;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 40px;
+        margin-top: -2px;
+        transition: 0.3s;
+    }
+    
+    .nav-link:hover{
+        color: #7EB693;
+    }
+    
+    .search {
+        width: 300px;
+        height: 66px;
+        border-radius: 36px;
+        background: #FAFAFA;
+        padding: 0 75px 0 15px;
+        margin: 0px 0 15px 30px;
+    }
+    
+    .search-btn{
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        margin: 5px 0 0 -70px;
+        background-color: #7EB693;
+        color: #FAFAFA;
+    }
+    
+    .search-btn:hover{
+        background-color: #274C5B;
+        color: #FAFAFA;
+    
+    }
+    
+    .cart-btn {
+        width: 159px;
+        height: 66px;
+        flex-shrink: 0;
+        border-radius: 33px;
+        border: 1px solid #E0E0E0;
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0 0 0 30px;
+    }
+    
+    .Cart{
+        margin: 0 12px 0 -17px;
+    }
+
+    .navbar-toggler {
+        margin: 0 -100px 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .search {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .search {
+        width: 245px;
+    }
+}
+
+/*Error*/
+
+.Error{
+    background: url(./error-img/bg-img.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.error-div{
+    padding-top: 215px;
+    float: right!important;
+}
+
+.error-txt-1{
+    color: #8FA8A8;
+    font-family: Roboto;
+    font-size: 300px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    margin: -35px;
+}
+
+.error-txt-2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.error-txt-3{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 165.4%; /* 29.772px */
+}
+
+.error-btn-1{
+    display: flex;
+    width: 275px;
+    height: 79px;
+    padding: 28px 49px 28px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #274C5B;
+    border: none;
+    margin-top: 35px;
+    /**/
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 575px) {
+    .error-div{
+        float: none!important;
+    }
+    
+    .Error{
+        background: url(./error-img/bg-img-small.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+    }
+
+    .error-txt-1{
+        font-size: 200px;
+        text-align: center;
+        margin: auto;
+        width: 415px;
+    }
+
+    .error-txt-2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .error-txt-3 {
+        color: #000000;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .error-btn-1{
+        margin: 35px auto auto auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .error-txt-1 {
+        font-size: 150px;
+        width: 260px;
+
+    }
+    
+    .error-txt-2 {
+        font-size: 40px;
+    }
+}
+
+
+
+/*Footer*/
+.Footer{
+    margin: 130px 0 0 0;
+}
+
+.footer-title, .footer-title-2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-title-2{
+    font-size: 38px;
+}
+
+.footer-txt{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165%;
+}
+
+.footer-txt span{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.footer-txt-2{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+    margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 575px) {
+    .Footer{
+        margin: 70px 0 0 0;
+    }
+
+    .footer-txt-2{
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer-txt-2 {
+        margin: 15px 15px;
+    }
+}
