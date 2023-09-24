@@ -387,6 +387,13 @@
     }
 }
 
+@media screen and (max-width: 380px) {
+    .home {
+        padding: 100px 50px;
+        height: 590px;
+    }
+}
+
 /*Offer*/
 .offer-img-1{
     border-radius: 36px;
